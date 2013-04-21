@@ -5,6 +5,8 @@
 # Susy grids in Compass
 require 'susy'
 
+require 'compass_twitter_bootstrap'
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact
