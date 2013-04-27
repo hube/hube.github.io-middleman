@@ -1,39 +1,41 @@
----
-title:     Amicus Project Start
-bodyclass: newproject
----
-
-.intro
-  :markdown
-    ## You're ready to start building!
-
-
-.features
-  .views-layouts
-    :markdown
-      ### Views & Layouts
-
-      Your source files are stored in the <kbd>source</kbd> folder. The main layout
-      file for this project is <kbd>source/layout.haml</kbd>.
-  .stylesheets-sass-compass
-    :markdown
-      ### Stylesheets, Sass &amp; Compass
-
-      This project is pre-configured for [Sass](http://sass-lang.com) and
-      [Compass](http://compass-style.org). Store your <kbd>sass</kbd> and
-      <kbd>scss</kbd> files in the <kbd>source/stylesheets</kbd> directory.
-  .compass-plugins
-    :markdown
-      ### Compass Plugins
-
-      Amicus includes support for [Susy](http://susy.oddbird.net/) by default.
-
-.moreinfo
-  :markdown
-    ### For More Info…
-
-    * on the Susy grid system, check out [the official site](http://susy.oddbird.net/).
-
-  =img_holder(:width => 300, :height => 200, :bgcolor => "#0c0", :fgcolor => "#fff", :text => "I'm an image placeholder!")
-
-
+.row
+  .span12
+    .row
+      .span3
+        %img.img-rounded(title='Flying high in the Phillippines!'
+                         src='http://www.gravatar.com/avatar/1083af62fc5be17d61582fdf16ff868f?s=220')
+      .span8
+        %h2 About
+        %p.lead
+          Hello! I'm Hubert Lee, a software craftsman specializing in Ruby on
+          Rails. I am passionate about designing well-structured software and
+          intuitive APIs, improving the user experience, and automation.
+.row
+  .span12
+    .row
+      .span4
+        %h3 Contact
+        %ul.unstyled
+          %li
+            %i.icon-envelope
+            <a href='m&#97;&#105;lto&#58;h&#117;be&#37;72t&#46;lee&#64;&#97;l&#117;mni&#37;2Eri%6&#51;e&#46;&#101;%64u'>hube&#114;t&#46;&#108;ee&#64;alumni&#46;rice&#46;edu</a>
+          %li
+            %i.icon-linkedin
+            %a(href='http://hk.linkedin.com/in/hubertklee/') Hubert Lee
+          %li
+            %i.icon-github
+            %a(href='https://github.com/hube/') hube
+          %li
+            %i.icon-twitter
+            %a(href='https://twitter.com/hubertklee') @hubertklee
+      -#
+        .span4
+          %h3 Technologies I Like
+          %ul
+            %li
+              %a(href='http://rubyonrails.org/') Ruby on Rails
+            %li
+      -#
+        .span4
+          %h3 Section
+          &nbsp;
